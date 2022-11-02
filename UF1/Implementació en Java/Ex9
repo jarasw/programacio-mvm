@@ -1,0 +1,15 @@
+    public static void main(String[] args) {
+
+        Scanner sr = new Scanner(System.in);
+
+        System.out.println("Introdueix el primer número");
+        int num1 = sr.nextInt();
+
+        System.out.println("Introdueix el segon número");
+        int num2 = sr.nextInt();
+
+        float resultat = (num1 + num2) / 2;
+
+        System.out.println("La mitjana aritmética és " + resultat);
+    }
+}
